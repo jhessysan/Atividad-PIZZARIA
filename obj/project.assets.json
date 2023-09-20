@@ -1,36 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jesyl\\.nuget\\packages\\": {}
+    "C:\\Users\\laecio_almeida\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\pizzaria2\\pizzaria2\\pizzaria2.csproj",
+      "projectUniqueName": "C:\\Users\\laecio_almeida\\Documents\\Pizzariaa\\pizzaria2.csproj",
       "projectName": "pizzaria2",
-      "projectPath": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\pizzaria2\\pizzaria2\\pizzaria2.csproj",
-      "packagesPath": "C:\\Users\\jesyl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\pizzaria2\\pizzaria2\\obj\\",
+      "projectPath": "C:\\Users\\laecio_almeida\\Documents\\Pizzariaa\\pizzaria2.csproj",
+      "packagesPath": "C:\\Users\\laecio_almeida\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\laecio_almeida\\Documents\\Pizzariaa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jesyl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\laecio_almeida\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +41,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

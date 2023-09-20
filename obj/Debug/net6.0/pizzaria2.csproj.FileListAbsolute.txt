@@ -1,0 +1,15 @@
+C:\Users\laecio_almeida\Documents\Pizzariaa\bin\Debug\net6.0\pizzaria2.exe
+C:\Users\laecio_almeida\Documents\Pizzariaa\bin\Debug\net6.0\pizzaria2.deps.json
+C:\Users\laecio_almeida\Documents\Pizzariaa\bin\Debug\net6.0\pizzaria2.runtimeconfig.json
+C:\Users\laecio_almeida\Documents\Pizzariaa\bin\Debug\net6.0\pizzaria2.dll
+C:\Users\laecio_almeida\Documents\Pizzariaa\bin\Debug\net6.0\pizzaria2.pdb
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\pizzaria2.csproj.AssemblyReference.cache
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\pizzaria2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\pizzaria2.AssemblyInfoInputs.cache
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\pizzaria2.AssemblyInfo.cs
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\pizzaria2.csproj.CoreCompileInputs.cache
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\pizzaria2.dll
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\refint\pizzaria2.dll
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\pizzaria2.pdb
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\pizzaria2.genruntimeconfig.cache
+C:\Users\laecio_almeida\Documents\Pizzariaa\obj\Debug\net6.0\ref\pizzaria2.dll

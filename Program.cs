@@ -15,10 +15,12 @@ namespace Client
             piz.entradaDados ();
     
 
-            DadosPessoa pess = new DadosPessoa();
+             CadastroPessoa cadas = new CadastroPessoa();
 
-            pess.entradaDadosPessoa ();
-            
+            var dadosPessoa = cadas.CadastrarUmaPessoa();
+
+            Console.WriteLine(dadosPessoa);
+
         }
     }
 }
