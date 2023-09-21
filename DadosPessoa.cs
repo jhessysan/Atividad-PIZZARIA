@@ -1,6 +1,6 @@
 using System;
 
-class DadosPessoa
+public class DadosPessoa
 {
 
     
@@ -8,11 +8,5 @@ class DadosPessoa
     public string Nome;
     public string Endereco;
     public double NumeroTelefone;
-
-    //métodos ()
-    public void entradaDadosPessoa()
-    {
-        
-    }
 
 }
