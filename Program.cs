@@ -36,19 +36,13 @@ namespace Client
 
             if(opcao2 == 2)
             {
-                //DadosPizza piz = new DadosPizza();
-                //var pizza = piz.CadastrarUmaPizza();
+                
                 Console.WriteLine();//impressão vazio para da espaço
 
                 //primeira pizza
                 Console.WriteLine($"Nome da pizza: {pizza.NomePizza}");
                 Console.WriteLine($"Sabor: {pizza.Saborpizza}");
                 Console.WriteLine($"Preço: {pizza.PrecoPizza}");
-            
-                //segunda pizza
-               // Console.WriteLine($"Nome da pizza: {pizza2.NomePizza2}");
-                //Console.WriteLine($"Sabor: {pizza2.Saborpizza2}");
-                //Console.WriteLine($"Preço: {pizza2.PrecoPizza2}");
 
                  Console.WriteLine("Deseja adcionar outra pizza digite 1/Sim 2/Não.");
                 var opcao3 = double.Parse(Console.ReadLine());
@@ -96,9 +90,9 @@ namespace Client
                 Console.WriteLine($"Nome da pizza: {pizza2.NomePizza2}");
                 Console.WriteLine($"Sabor: {pizza2.Saborpizza2}");
                 Console.WriteLine($"Preço: {pizza2.PrecoPizza2}");
-                Console.WriteLine();
+                Console.WriteLine();//impressão vazio para da espaço
                 Console.WriteLine($"Valor total: {pizza2.PrecoPizza2 + pizza.PrecoPizza}");
-                Console.WriteLine();
+                Console.WriteLine();//impressão vazio para da espaço
 
                 Console.WriteLine("ESCOLHA A FORMA DE PAGAMENTO: \n 1/Dinheiro. \n2/Cartão. \n3/Vale-refeição. ");
                 var opcao6 = double.Parse(Console.ReadLine());
@@ -107,19 +101,19 @@ namespace Client
             {
                 Console.WriteLine("Pagamento em dinheiro.");
                 Console.WriteLine("PAGAMENTO FEITO COM SUCESSO!");
-                Console.WriteLine();
+                Console.WriteLine();//impressão vazio para da espaço
             }
             else if(opcao6 == 2)
             {
                 Console.WriteLine("Pagamento com cartão.");
                 Console.WriteLine("PAGAMENTO FEITO COM SUCESSO!");
-                Console.WriteLine();
+                Console.WriteLine();//impressão vazio para da espaço
             }
             else if(opcao6 == 3)
             {
                 Console.WriteLine("Pagamento com vale-refeição.");
                 Console.WriteLine("PAGAMENTO FEITO COM SUCESSO!");
-                Console.WriteLine();
+                Console.WriteLine();//impressão vazio para da espaço
             }
             else
             {
