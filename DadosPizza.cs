@@ -6,21 +6,17 @@ public class DadosPizza
          //métodos
         Console.WriteLine("Digite nome da pizza: ");
         var nomepizza = Console.ReadLine();
-        Console.WriteLine("Digite o sabor da pizza: ");
+        Console.WriteLine("Digite o sabor da pizza separados com virgula: ");
         var saborpizza = Console.ReadLine();
         
         Console.WriteLine("Digite o preço da pizza: ");
-        var precopizza = Console.ReadLine();
-        var conversaoPrecoPizza = Convert.ToDouble(precopizza);
+        var precopizza = double.Parse(Console.ReadLine());
 
         var pizza = new Pizza();
         pizza.NomePizza = nomepizza;
         pizza.Saborpizza = saborpizza;
-        pizza.PrecoPizza = conversaoPrecoPizza;
+        pizza.PrecoPizza = precopizza;
         return pizza;
-        
-
-        //Console.WriteLine($" A Pizza de {nome} tem sabor de {sabor} e custa {preco} $.");
 
     }
 

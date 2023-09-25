@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\Pizza\\pizzaria2.csproj": {}
+    "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\pizzaria2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\Pizza\\pizzaria2.csproj": {
+    "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\pizzaria2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\Pizza\\pizzaria2.csproj",
+        "projectUniqueName": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\pizzaria2.csproj",
         "projectName": "pizzaria2",
-        "projectPath": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\Pizza\\pizzaria2.csproj",
+        "projectPath": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\pizzaria2.csproj",
         "packagesPath": "C:\\Users\\jesyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\Pizza\\obj\\",
+        "outputPath": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesyl\\AppData\\Roaming\\NuGet\\NuGet.Config"

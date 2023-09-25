@@ -26,3 +26,17 @@ C:\Users\jesyl\OneDrive\Documentos\cursojs\Pizza\bin\Debug\net7.0\pizzaria2.dll
 C:\Users\jesyl\OneDrive\Documentos\cursojs\Pizza\bin\Debug\net7.0\pizzaria2.pdb
 C:\Users\jesyl\OneDrive\Documentos\cursojs\Pizza\obj\Debug\net7.0\pizzaria2.genruntimeconfig.cache
 C:\Users\jesyl\OneDrive\Documentos\cursojs\Pizza\obj\Debug\net7.0\ref\pizzaria2.dll
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\pizzaria2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\pizzaria2.AssemblyInfoInputs.cache
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\pizzaria2.AssemblyInfo.cs
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\pizzaria2.csproj.CoreCompileInputs.cache
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\pizzaria2.dll
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\refint\pizzaria2.dll
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\pizzaria2.pdb
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\bin\Debug\net7.0\pizzaria2.exe
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\bin\Debug\net7.0\pizzaria2.deps.json
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\bin\Debug\net7.0\pizzaria2.runtimeconfig.json
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\bin\Debug\net7.0\pizzaria2.dll
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\bin\Debug\net7.0\pizzaria2.pdb
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\pizzaria2.genruntimeconfig.cache
+C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\ref\pizzaria2.dll
