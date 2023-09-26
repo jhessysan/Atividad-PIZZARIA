@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\pizzaria2.csproj": {}
+    "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\pizzaria2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\pizzaria2.csproj": {
+    "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\pizzaria2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\pizzaria2.csproj",
+        "projectUniqueName": "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\pizzaria2.csproj",
         "projectName": "pizzaria2",
-        "projectPath": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\pizzaria2.csproj",
-        "packagesPath": "C:\\Users\\jesyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesyl\\OneDrive\\Documentos\\cursojs\\teste\\Teste\\obj\\",
+        "projectPath": "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\pizzaria2.csproj",
+        "packagesPath": "C:\\Users\\jhessylene\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jesyl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jhessylene\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

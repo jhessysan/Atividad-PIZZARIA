@@ -40,3 +40,17 @@ C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\bin\Debug\net7.0\pizzaria
 C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\bin\Debug\net7.0\pizzaria2.pdb
 C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\pizzaria2.genruntimeconfig.cache
 C:\Users\jesyl\OneDrive\Documentos\cursojs\teste\Teste\obj\Debug\net7.0\ref\pizzaria2.dll
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\bin\Debug\net7.0\pizzaria2.exe
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\bin\Debug\net7.0\pizzaria2.deps.json
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\bin\Debug\net7.0\pizzaria2.runtimeconfig.json
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\bin\Debug\net7.0\pizzaria2.dll
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\bin\Debug\net7.0\pizzaria2.pdb
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.AssemblyInfoInputs.cache
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.AssemblyInfo.cs
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.csproj.CoreCompileInputs.cache
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.dll
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\refint\pizzaria2.dll
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.pdb
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.genruntimeconfig.cache
+C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\ref\pizzaria2.dll
