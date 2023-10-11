@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\pizzaria2.csproj": {}
+    "C:\\Users\\jhessylene\\Documents\\vc code\\pizzaria\\pizzaria2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\pizzaria2.csproj": {
+    "C:\\Users\\jhessylene\\Documents\\vc code\\pizzaria\\pizzaria2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\pizzaria2.csproj",
+        "projectUniqueName": "C:\\Users\\jhessylene\\Documents\\vc code\\pizzaria\\pizzaria2.csproj",
         "projectName": "pizzaria2",
-        "projectPath": "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\pizzaria2.csproj",
+        "projectPath": "C:\\Users\\jhessylene\\Documents\\vc code\\pizzaria\\pizzaria2.csproj",
         "packagesPath": "C:\\Users\\jhessylene\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhessylene\\Desktop\\vs code\\PIZZARIA\\obj\\",
+        "outputPath": "C:\\Users\\jhessylene\\Documents\\vc code\\pizzaria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jhessylene\\AppData\\Roaming\\NuGet\\NuGet.Config"

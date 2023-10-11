@@ -54,3 +54,17 @@ C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\refint\pizzaria2.d
 C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.pdb
 C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\pizzaria2.genruntimeconfig.cache
 C:\Users\jhessylene\Desktop\vs code\PIZZARIA\obj\Debug\net7.0\ref\pizzaria2.dll
+C:\Users\jhessylene\Documents\vc code\pizzaria\bin\Debug\net7.0\pizzaria2.exe
+C:\Users\jhessylene\Documents\vc code\pizzaria\bin\Debug\net7.0\pizzaria2.deps.json
+C:\Users\jhessylene\Documents\vc code\pizzaria\bin\Debug\net7.0\pizzaria2.runtimeconfig.json
+C:\Users\jhessylene\Documents\vc code\pizzaria\bin\Debug\net7.0\pizzaria2.dll
+C:\Users\jhessylene\Documents\vc code\pizzaria\bin\Debug\net7.0\pizzaria2.pdb
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\pizzaria2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\pizzaria2.AssemblyInfoInputs.cache
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\pizzaria2.AssemblyInfo.cs
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\pizzaria2.csproj.CoreCompileInputs.cache
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\pizzaria2.dll
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\refint\pizzaria2.dll
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\pizzaria2.pdb
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\pizzaria2.genruntimeconfig.cache
+C:\Users\jhessylene\Documents\vc code\pizzaria\obj\Debug\net7.0\ref\pizzaria2.dll

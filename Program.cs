@@ -1,133 +1,151 @@
-﻿
+﻿﻿
 using System;
-using System.Reflection.Metadata.Ecma335;
-using System.Security.Cryptography;
+using System.Diagnostics;
+using Microsoft.VisualBasic;
 
 
 namespace Client
 {
     public class Program
     {
-        public static async Task Main(string[] args)
+        public static void Main()
         {
-           //Entrada de informação do ususario
-            Console.WriteLine("BEM VINDO A PIZZARIA LASABOR. \n ESCOLA UMA OPÇÃO: \n 1/Adcionar Pizza. \n 2/Listar Pizza. \n 3/Criar novo pedido. \n 4/Listar pedido. \n 5/Pagar pedido. ");
-            var opcoes = double.Parse(Console.ReadLine());
-           
-          
-           
-           if(opcoes == 1)
-            {           
-           //Instanciar (criando objeto)
-
-            DadosPizza piz = new DadosPizza();
-
-            var pizza = piz.CadastrarUmaPizza();
-            Console.WriteLine();//impressão vazio para da espaço
-
-            Console.WriteLine("Pizza criada.");
-            Console.WriteLine("Digite 2 para listar pedido.");
-            var opcao2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("BEM VINDO A PIZZARIA LASABOR \n ESCOLA UMA OPÇÃO: \n 1/Adcionar Pizza. \n 2/Listar Pizza. \n 3/Criar novo pedido. \n 4/Listar pedido.");
+            var opcao = double.Parse(Console.ReadLine());
             
-            
-                
-           
 
-
-            if(opcao2 == 2)
+            if(opcao == 1)
             {
-                
-                Console.WriteLine();//impressão vazio para da espaço
-
                 //primeira pizza
-                Console.WriteLine($"Nome da pizza: {pizza.NomePizza}");
-                Console.WriteLine($"Sabor: {pizza.Saborpizza}");
-                Console.WriteLine($"Preço: {pizza.PrecoPizza}$");
-
-                 Console.WriteLine("Deseja adcionar outra pizza digite 1/Sim 2/Não.");
-                var opcao3 = double.Parse(Console.ReadLine());
-            
-                    
-
-            
-            if(opcao3 == 1)
-            {
-                 DadosPizza2 piz2 = new DadosPizza2();
-
-                var pizza2 = piz2.CadastrarUmaPizza2();
-                Console.WriteLine();//impressão vazio para da espaço
-
-                Console.WriteLine("Pizza criada.");
-                Console.WriteLine("Digite 2 para listar pizza.");
-                var opcao4 = double.Parse(Console.ReadLine());
-                
-            if(opcao4 == 2){
-
+                Console.WriteLine($"OPÇÃO: {opcao}");
+                Console.WriteLine();//vazio para espaço
+                string oNome = DadosPizza.AdcionarNome();
+                string oSabor = DadosPizza.AdcionarSabor();
+                double oPreco = DadosPizza.AdcionarPreco();
                 //segunda pizza
-                Console.WriteLine($"Nome da pizza: {pizza2.NomePizza2}");
-                Console.WriteLine($"Sabor: {pizza2.Saborpizza2}");
-                Console.WriteLine($"Preço: {pizza2.PrecoPizza2}$");
-
-                 Console.WriteLine("Digite 4 para listar pedido");
-                var opcao5 = double.Parse(Console.ReadLine());
-            
-
-            
-            if(opcao5 ==4 || opcao3 == 2)
-            {
-                CadastroPessoa cadas = new CadastroPessoa();
-                var dadosPessoa = cadas.CadastrarUmaPessoa();
-                Console.WriteLine();//impressão vazio para da espaço
-                Console.WriteLine("PEDIDO PRONTO!");
-
-                Console.WriteLine();//impressão vazio para da espaço
-                Console.WriteLine($"Cliente: {dadosPessoa.Nome}");
-                Console.WriteLine($"Endereço: {dadosPessoa.Endereco}");
-                Console.WriteLine($"Telefone: {dadosPessoa.NumeroTelefone}");
+                string oNome2 = DadosPizza.AdcionarNome2();
+                string oSabor2 = DadosPizza.AdcionarSabor2();
+                double oPreco2 = DadosPizza.AdcionarPreco2();
+                double listar = DadosPizza.ListarPizza();
+                Console.WriteLine("PIZZA CRIADA COM SUCESSO! ");    
+            if( listar == 2){
                 //primeira pizza
-                Console.WriteLine($"Nome da pizza: {pizza.NomePizza}");
-                Console.WriteLine($"Sabor: {pizza.Saborpizza}");
-                Console.WriteLine($"Preço: {pizza.PrecoPizza}$");
+                Console.WriteLine($"OPÇÃO: {listar}");
+                Console.WriteLine();//vazio para espaço
+                Console.WriteLine($"O nome da Pizza é {oNome}.");
+                Console.WriteLine($"O sabor da pizza é {oSabor}.");
+                Console.WriteLine($"O preço da pizza é {oPreco}$.");
+                Console.WriteLine();//vazio para espaço
                 //segunda pizza
-                Console.WriteLine($"Nome da segunda pizza: {pizza2.NomePizza2}");
-                Console.WriteLine($"Sabor: {pizza2.Saborpizza2}");
-                Console.WriteLine($"Preço: {pizza2.PrecoPizza2}$");
-                Console.WriteLine();//impressão vazio para da espaço
-                Console.WriteLine($"Valor total: {pizza2.PrecoPizza2 + pizza.PrecoPizza}$");
-                Console.WriteLine();//impressão vazio para da espaço
+                Console.WriteLine($"O nome da Pizza é {oNome2}.");
+                Console.WriteLine($"O sabor da pizza é {oSabor2}.");
+                Console.WriteLine($"O preço da pizza é {oPreco2}$.");
+                Console.WriteLine();//vazio para espaço 
+                double criarPedido = DadosPizza.CriarPedido();
+            if(criarPedido == 3)
+            {   //dados do cliente
+                string nomeDoCliente = NovoPedido.AdcionarNomeCliente();
+                string numeroDoCliente = NovoPedido.AdcionarNumeroTelefone();
+                //adcionando pizza
+                Console.WriteLine($"Escolha uma pizza para adcionar. \n 0-{oNome}-R${oPreco} \n 1-{oNome2}-R${oPreco2}");
+                var pesc = int.Parse(Console.ReadLine());
+                List<string> listaPizzaEsc = new List<string>();
+                List<double> listaPizzaEsc2 = new List<double>();
+                listaPizzaEsc.Add(oNome);
+                listaPizzaEsc.Add(oNome2);
+                listaPizzaEsc2.Add(oPreco);
+                listaPizzaEsc2.Add(oPreco2);   
+                Console.WriteLine($"OPÇÃO: {pesc} - {listaPizzaEsc[pesc]}");
+                //adcionar outra pizza
+                double pe = NovoPedido.EscolherOutraPizza();
+                if(pe == 2)
+                {
+                    double pdao = NovoPedido.ListarPedidao();
+                    if(pdao == 4)
+                    {//pedido com uma pizza
+                    Console.WriteLine($"PEDIDO {pe}");
+                    Console.WriteLine($"O nome do(a) Cliente é {nomeDoCliente}.");
+                    Console.WriteLine($"O numero do(a) Cliente é {numeroDoCliente}.");
+                    Console.WriteLine($"{listaPizzaEsc[pesc]}-RS{listaPizzaEsc2[pesc]}");}
+                    Console.WriteLine($"Total: {listaPizzaEsc2[pesc]}");
+                    Console.WriteLine($"Quanto falta para pagar: {listaPizzaEsc2[pesc]}");
+                    Console.WriteLine("pago: NÃO");
+                    Console.WriteLine($"Qual é o numero do pedido:");
+                    Console.WriteLine($"{pe} - Cliente: {nomeDoCliente} - Falta: R${listaPizzaEsc2[pesc]}");
+                    Console.WriteLine("Escolha uma forma de pagamento? \n 1/Dinheiro \n2/Cartão de debito. \n3/vale-refeição.");
+                    var pag = double.Parse(Console.ReadLine());
+                    //pagamentos de uma pizza
+                        if(pag == 1){
+                                Pagamento.PagarEmDinheiro($"Qual é o valor:\nR${listaPizzaEsc2[pesc]}\nTOTAL PAGO: R${listaPizzaEsc2[pesc]}");
+                            }else if(pag == 2){
+                                 //Pagamento pagamento = new Pagamento();
+                                Pagamento.PagarComCartaoCredito($"Qual é o valor:\n R${listaPizzaEsc2[pesc]}\nTOTAL PAGO: R${listaPizzaEsc2[pesc]}");
+                            }else if(pag == 3){
+                                Pagamento.PagarComCartaoAlimentacao($"Qual é o valor:\n R${listaPizzaEsc2[pesc]}\nTOTAL PAGO: R${listaPizzaEsc2[pesc]}");
+                            }else{Console.WriteLine("Opção invalida");}
+                }     
+                
+            else if(pe == 1)
+            {
+                    Console.WriteLine($"Escolha uma pizza para adcionar. \n 0-{oNome}-R${oPreco} \n 1-{oNome2}-R${oPreco2}");
+                    var pesc3 = int.Parse(Console.ReadLine());
+                    List<string> listaPizzaEsc3 = new List<string>();
+                    List<double> listaPizzaEsc4 = new List<double>();
+                    listaPizzaEsc3.Add(oNome);
+                    listaPizzaEsc3.Add(oNome2);
+                    listaPizzaEsc4.Add(oPreco);
+                    listaPizzaEsc4.Add(oPreco2);   
+                    Console.WriteLine($"OPÇÃO: {pesc3} - {listaPizzaEsc[pesc3]}");
+                    //var pizzaEscolhida3 = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite 2 para confiemar pedido.");
+                    var listarPedidao = int.Parse(Console.ReadLine());
+            
+            if(listarPedidao == 2){
 
-                Console.WriteLine("ESCOLHA A FORMA DE PAGAMENTO: \n 1/Dinheiro. \n2/Cartão. \n3/Vale-refeição. ");
-                var opcao6 = double.Parse(Console.ReadLine());
-         
-            if(opcao6 == 1)
-            {
-                Console.WriteLine("Pagamento em dinheiro.");
-                Console.WriteLine("PAGAMENTO FEITO COM SUCESSO!");
-                Console.WriteLine();//impressão vazio para da espaço
+                        double listarPedido = NovoPedido.ListarPedido();
+                    if(listarPedido == 4 || pesc == 2)
+                    {
+                        
+                        if(pe == 1)
+                        {  //pedido com duas pizza
+                            Console.WriteLine($"O nome do(a) Cliente é {nomeDoCliente}.");
+                            Console.WriteLine($"O numero do(a) Cliente é {numeroDoCliente}.");
+                            Console.WriteLine($"{listaPizzaEsc[pesc]}-RS{listaPizzaEsc2[pesc]}");
+                            Console.WriteLine($"{listaPizzaEsc3[pesc3]}-RS{listaPizzaEsc4[pesc3]}");
+                            //soma das entrada de valores
+                            double soma = Pagamento.Soma(listaPizzaEsc2[pesc], listaPizzaEsc4[pesc3]);
+                            //pergunta antes do pagamento
+                            Console.WriteLine($"Total: {soma}");
+                            Console.WriteLine($"Quanto falta para pagar: {soma}");
+                            Console.WriteLine("pago: NÃO");
+                            Console.WriteLine($"Qual é o numero do pedido:");
+                            Console.WriteLine($"{pe} - Cliente: {nomeDoCliente} - Falta: R$ {soma}");
+                            Console.WriteLine("Escolha uma forma de pagamento? \n 1/Dinheiro \n2/Cartão de debito. \n3/vale-refeição.");
+                            var pag = double.Parse(Console.ReadLine());
+                            //pagamento com duas pizza
+                            if(pag == 1){
+                                Pagamento.PagarEmDinheiro($"Qual é o valor:\nR$ {soma}\nTOTAL PAGO: R$ {soma}");
+                            }else if(pag == 2){
+                                 //Pagamento pagamento = new Pagamento();
+                                Pagamento.PagarComCartaoCredito($"Qual é o valor:\n R$ {soma}\nTOTAL PAGO: R$ {soma}");
+                            }else if(pag == 3){
+                                Pagamento.PagarComCartaoAlimentacao($"Qual é o valor:\n R$ {soma}\nTOTAL PAGO: R$ {soma}");
+                            }else{Console.WriteLine("Opção invalida");}
+                        
+                        
+                    }
+                }    
             }
-            else if(opcao6 == 2)
-            {
-                Console.WriteLine("Pagamento com cartão.");
-                Console.WriteLine("PAGAMENTO FEITO COM SUCESSO!");
-                Console.WriteLine();//impressão vazio para da espaço
-            }
-            else if(opcao6 == 3)
-            {
-                Console.WriteLine("Pagamento com vale-refeição.");
-                Console.WriteLine("PAGAMENTO FEITO COM SUCESSO!");
-                Console.WriteLine();//impressão vazio para da espaço
-            }
-            else
-            {
-                Console.WriteLine("Digite apenas '1', '2', '3' ou '4', e um por vez confome a sua escolha!");
-            }
+           
 
         }
     }
 }
+}else{
+    Console.WriteLine("ERRO: adcione uma pizza antes de escolher outra opção!");
+    Console.WriteLine();
 }
 }
-}
-}
-}
+    }}
 
+//modificado
