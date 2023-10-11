@@ -22,7 +22,7 @@ public static string AdcionarSabor()
 public static double AdcionarPreco()
 {
   Console.WriteLine("Digite o preço da pizza: ");
-  var precopizza = int.Parse(Console.ReadLine());
+  var precopizza = double.Parse(Console.ReadLine());
   List<double> listaPizzaPreco = new List<double>();
   listaPizzaPreco.Add(precopizza);
   return precopizza;
@@ -48,7 +48,7 @@ public static string AdcionarSabor2()
 public static double AdcionarPreco2()
 {
   Console.WriteLine("Digite o preço da pizza: ");
-  var precopizza2 = int.Parse(Console.ReadLine());
+  var precopizza2 = double.Parse(Console.ReadLine());
   List<double> listaPizzaPreco2 = new List<double>();
   listaPizzaPreco2.Add(precopizza2);
   return precopizza2;
@@ -56,13 +56,13 @@ public static double AdcionarPreco2()
 public static double ListarPizza()
 {
   Console.WriteLine("Digite 2 para listar pizza.");
-  var listarp = int.Parse(Console.ReadLine());
+  var listarp = double.Parse(Console.ReadLine());
   return listarp;
 }
 public static double CriarPedido()
 {
   Console.WriteLine("Digite 3 para criar novo pedido.");
-  var Criarp = int.Parse(Console.ReadLine());
+  var Criarp = double.Parse(Console.ReadLine());
   return Criarp;
 }
 
